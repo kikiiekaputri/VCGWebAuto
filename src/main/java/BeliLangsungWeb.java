@@ -96,7 +96,7 @@ public class BeliLangsungWeb extends LoginWeb {
             pinFields.sendKeys(pinDigits[i]);
         }
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(11));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"__layout\"]/div/div[2]/div/div/div[1]/div[1]/img")));
     }
 
