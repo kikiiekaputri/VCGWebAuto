@@ -4,11 +4,11 @@ import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 
-public class LoginWeb {
+public class ObsoleteLoginWeb {
     String messages;
     WebDriver driver;
 
-    public LoginWeb() {
+    public ObsoleteLoginWeb() {
         messages = "";
     }
 

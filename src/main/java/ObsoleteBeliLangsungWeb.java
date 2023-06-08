@@ -3,11 +3,11 @@ import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 
-public class BeliLangsungWeb extends LoginWeb {
+public class ObsoleteBeliLangsungWeb extends ObsoleteLoginWeb {
 
     String messages;
 
-    public BeliLangsungWeb() {
+    public ObsoleteBeliLangsungWeb() {
         messages = "";
     }
 

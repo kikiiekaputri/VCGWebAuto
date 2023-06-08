@@ -1,17 +1,15 @@
 import org.json.simple.parser.ParseException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.IOException;
 
-public class LoginWebCases {
+public class ObsoleteLoginWebCases {
 
     public static void main(String[] args) throws IOException, ParseException {
         ConfigReader cr = new ConfigReader("src/input/sellers.json");
         String emailInput = cr.getEmail(1);
         String passwordInput = cr.getPassword(1);
 
-        LoginWeb lg = new LoginWeb();
+        ObsoleteLoginWeb lg = new ObsoleteLoginWeb();
 
         //case 1 : login dengan email & password valid
         lg.doLogin("kikiiekaputri@gmail.com","ciwkiciw");

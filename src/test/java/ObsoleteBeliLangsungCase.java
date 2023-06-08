@@ -1,9 +1,7 @@
-import org.openqa.selenium.WebDriver;
-
-public class BeliLangsungCase {
+public class ObsoleteBeliLangsungCase {
     public static void main(String[] args) {
 
-        BeliLangsungWeb blw = new BeliLangsungWeb();
+        ObsoleteBeliLangsungWeb blw = new ObsoleteBeliLangsungWeb();
 
         blw.doLogin("buyerb@mailinator.com","ciwkiciw");
 
